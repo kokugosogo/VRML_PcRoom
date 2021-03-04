@@ -1,0 +1,145 @@
+#VRML V2.0 utf8
+
+Transform {
+    translation -5.25 3 -6.5
+    children [
+       DEF monitor Transform{ 
+            children[
+                Transform{
+                    translation 0 -0.5 0
+                    rotation 1 0 0 0.3
+                    children[
+                        Shape {
+                            geometry Box {
+                                size 1 0.6 0.07
+                            }
+                            appearance Appearance {
+                                    material Material {
+                                        diffuseColor 0 0 0
+                                    }
+                            }
+                        }
+                    ]
+                
+                }
+                #画面
+                Transform{
+                    translation 0 -0.5 0.05
+                    rotation 1 0 0 0.3
+                    children[
+                        Shape {
+                            geometry Box {
+                                size 0.9 0.5 0
+                            }
+                            appearance Appearance {
+                                texture ImageTexture {
+                                    url "irumi.jpg"
+                                }
+                                    material Material {
+                                        diffuseColor 0 0 0
+                                    }
+                            }
+                        }
+                    ]
+                
+                }
+                Transform{
+                    translation 0 -0.25 0
+                    children[
+                        Shape {
+                            geometry Box {
+                                size 0.08 0.5 0.08
+                            }
+                            appearance Appearance {
+                                    material Material {
+                                        diffuseColor 0 0 0
+                                    }
+                            }
+                        }
+                    ]
+                
+                }
+            ]
+        }
+    ]
+}
+        Transform{
+            translation -5.25 3 -3
+            children[
+                USE monitor
+            ]
+        }
+        Transform{
+            translation -5.25 3 0.5
+            children[
+                USE monitor
+            ]
+        }
+        Transform{
+            translation -5.25 3 4
+            children[
+                USE monitor
+            ]
+        }
+        Transform{
+            translation 0.75 3 -6.5
+            children[
+                USE monitor
+            ]
+        }
+        Transform{
+            translation 0.75 3 -3
+            children[
+                USE monitor
+            ]
+        }
+        Transform{
+            translation 0.75 3 0.5
+            children[
+                USE monitor
+            ]
+        }
+        Transform{
+            translation 0.75 3 4
+            children[
+                USE monitor
+            ]
+        }
+
+#frontmonitor
+        Transform{
+                    translation -2.25 1.5 -8.4
+                    children[
+                        Shape {
+                            geometry Box {
+                                size 4.5 2 0.01
+                            }
+                            appearance Appearance {
+                                    material Material {
+                                        diffuseColor 0 0 0
+                                    }
+                            }
+                        }
+                    ]
+                
+                }
+                #画面
+                Transform{
+                    translation -2.25 1.5 -8.39
+                    children[
+                        Shape {
+                            geometry Box {
+                                size 4.1 1.6 0
+                            }
+                            appearance Appearance {
+                                texture ImageTexture {
+                                    url "irumi.jpg"
+                                }
+                                    material Material {
+                                        diffuseColor 0 0 0
+                                    }
+                            }
+                        }
+                    ]
+                
+                }

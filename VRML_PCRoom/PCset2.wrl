@@ -1,0 +1,861 @@
+#VRML V2.0 utf8
+
+DEF WinPC3 Transform{
+    translation 0 0 0
+    children[
+        DEF WinPCset Transform {
+        translation 0 0.8 0
+        children [
+            DEF WinPC Transform{
+                children[
+            #display Left
+                Transform{
+                    translation -0.45 0.33 -0.08
+                    rotation -1 0 0 0.13
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.5 0.3 0.02
+                        }
+
+
+                    }
+                    ]
+                }
+
+                #prop Left
+                Transform{
+                    translation -0.45 0.25 -0.14
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.1 0.5 0.01
+                        }
+                    }
+                    ]
+                }
+
+                #bord Left
+                Transform{
+                    translation -0.45 0.02 -0.135
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.3 0.01 0.2
+                        }
+                    }
+                    ]
+                }
+
+                #accessory Left
+                Transform{
+                    translation -0.45 0.33 -0.12
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.05 0.03 0.05
+                        }
+                    }
+                    ]
+                }
+
+                #keybord Left
+                Transform{
+                    translation -0.45 0.02 0.15
+                    rotation 1 0 0 0.13
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.45 0.005 0.13
+                        }
+                    }
+                    ]
+                }
+
+                #PC Left
+                Transform{
+                    translation -0.055 0.15 -0.1
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.1 0.3 0.3
+                        }
+                    }
+                    ]
+                }
+
+                #display Right
+                Transform{
+                    translation 0.45 0.33 -0.08
+                    rotation -1 0 0 0.13
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.5 0.3 0.02
+                        }
+                    }
+                    ]
+                }
+
+                #prop Right
+                Transform{
+                    translation 0.45 0.25 -0.14
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.1 0.5 0.01
+                        }
+                    }
+                    ]
+                }
+
+                #bord Right
+                Transform{
+                    translation 0.45 0.02 -0.135
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.3 0.01 0.2
+                        }
+                    }
+                    ]
+                }
+
+                #accessory Right
+                Transform{
+                    translation 0.45 0.33 -0.12
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.05 0.03 0.05
+                        }
+                    }
+                    ]
+                }
+
+                #keybord Right
+                Transform{
+                    translation 0.45 0.02 0.15
+                    rotation 1 0 0 0.13
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.45 0.005 0.13
+                        }
+                    }
+                    ]
+                }
+
+                #PC Right
+                Transform{
+                    translation 0.055 0.15 -0.1
+                    children[
+                    Shape{
+                        appearance Appearance{
+                        material Material{
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        geometry Box{
+                        size 0.1 0.3 0.3
+                        }
+                    }
+                    ]
+                }
+                ]
+            }
+
+            DEF desk Transform{
+                children[
+                #desk top
+                Transform {
+                    translation 0 0 0
+                    children [
+                        Shape {
+                            geometry Box {
+                                size  1.55 0.02 0.6
+                            }
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 1 1 1
+                                }
+                            }
+                        }
+                    ]
+                }
+
+                #desk front
+                Transform {
+                    translation 0 -0.25 -0.3
+                    children [
+                        Shape {
+                            geometry Box {
+                                size  1.55 0.52 0.02
+                            }
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 1 1 1
+                                }
+                            }
+                        }
+                    ]
+                }
+
+                #desk Left side
+                Transform {
+                    translation -0.75 -0.35 0
+                    children [
+                        Shape {
+                            geometry Box {
+                                size  0.02 0.7 0.6
+                            }
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 1 1 1
+                                }
+                            }
+                        }
+                    ]
+                }
+
+                #desk Right side
+                Transform {
+                    translation 0.75 -0.35 0
+                    children [
+                        Shape {
+                            geometry Box {
+                                size  0.02 0.7 0.6
+                            }
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 1 1 1
+                                }
+                            }
+                        }
+                    ]
+                }
+                ]
+            }
+
+            DEF ChairLeft Transform{
+                scale 0.7 0.7 0.7
+                translation -0.4 -0.7 0.4
+                children[
+                    Transform{
+                    scale 0.1 0.1 0.1
+                    children[
+                    #chair back
+                    Transform {
+                    translation 0 10 4
+                    children[
+                        Shape {
+                        geometry Box {
+                        size 6 4 1
+                        }
+                        appearance Appearance{
+                        material Material {
+                            diffuseColor 0 0.5 0
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair upprop
+                    Transform {
+                    translation 0 8 4
+                    children[
+                    Shape{
+                    geometry Cylinder {
+                        radius 0.3
+                        height 4
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                    }
+                    ]
+                    }
+
+                    #chair underprop
+                    Transform {
+                    translation 0 3 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 0.4
+                        height 6
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair hip
+                    Transform {
+                    translation 0 6 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 4
+                        height 0.5
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0 0.5 0
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair under
+                    Transform {
+                    translation 0 0 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 3
+                        height 0.5
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        }
+                    ]
+                    }
+                    ]
+                    }
+            ]
+            }
+            DEF ChairRight Transform{
+                scale 0.7 0.7 0.7
+                translation 0.4 -0.7 0.4
+                children[
+                    Transform{
+                    scale 0.1 0.1 0.1
+                    children[
+                    #chair back
+                    Transform {
+                    translation 0 10 4
+                    children[
+                        Shape {
+                        geometry Box {
+                        size 6 4 1
+                        }
+                        appearance Appearance{
+                        material Material {
+                            diffuseColor 0 0.5 0
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair upprop
+                    Transform {
+                    translation 0 8 4
+                    children[
+                    Shape{
+                    geometry Cylinder {
+                        radius 0.3
+                        height 4
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                    }
+                    ]
+                    }
+
+                    #chair underprop
+                    Transform {
+                    translation 0 3 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 0.4
+                        height 6
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair hip
+                    Transform {
+                    translation 0 6 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 4
+                        height 0.5
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0 0.5 0
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair under
+                    Transform {
+                    translation 0 0 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 3
+                        height 0.5
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        }
+                    ]
+                    }
+                    ]
+                    }
+            ]
+            }
+        ]
+        }
+        Transform{
+        translation -1.5 0 0
+        children[
+            USE WinPCset
+        ]
+        }
+        Transform{ 
+            translation 1.5 0 0
+        children[
+        DEF MacPC Transform{
+    translation 0 0.8 0
+    children[
+        DEF MacPCLeft Transform {
+        translation -0.4 0.1 0
+        children [
+          #display
+            Transform{
+              translation 0 0 -0.12
+              rotation -1 0 0 1.8
+              children[
+                Shape{
+                  appearance Appearance{
+                    material Material{
+                      diffuseColor 0.75 0.75 0.75
+                    }
+                  }
+                  geometry Box{
+                    size 0.3 0.01 0.2
+                  }
+                }
+              ]
+            }
+
+            #keybord
+            Transform{
+              translation 0 -0.08 0
+              children[
+                Shape{
+                  appearance Appearance{
+                    material Material{
+                      diffuseColor 0.75 0.75 0.75
+                    }
+                  }
+                  geometry Box{
+                    size 0.3 0.01 0.2
+                  }
+                }
+              ]
+            }
+        ]
+        }
+        DEF MacPCRight Transform {
+        translation 0.4 0.1 0
+        children [
+          #display
+            Transform{
+              translation 0 0 -0.12
+              rotation -1 0 0 1.8
+              children[
+                Shape{
+                  appearance Appearance{
+                    material Material{
+                      diffuseColor 0.75 0.75 0.75
+                    }
+                  }
+                  geometry Box{
+                    size 0.3 0.01 0.2
+                  }
+                }
+              ]
+            }
+
+            #keybord
+            Transform{
+              translation 0 -0.08 0
+              children[
+                Shape{
+                  appearance Appearance{
+                    material Material{
+                      diffuseColor 0.75 0.75 0.75
+                    }
+                  }
+                  geometry Box{
+                    size 0.3 0.01 0.2
+                  }
+                }
+              ]
+            }
+        ]
+        }
+            DEF desk Transform{
+                children[
+                #desk top
+                Transform {
+                    translation 0 0 0
+                    children [
+                        Shape {
+                            geometry Box {
+                                size  1.55 0.02 0.6
+                            }
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 1 1 1
+                                }
+                            }
+                        }
+                    ]
+                }
+
+                #desk front
+                Transform {
+                    translation 0 -0.25 -0.3
+                    children [
+                        Shape {
+                            geometry Box {
+                                size  1.55 0.52 0.02
+                            }
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 1 1 1
+                                }
+                            }
+                        }
+                    ]
+                }
+
+                #desk Left side
+                Transform {
+                    translation -0.75 -0.35 0
+                    children [
+                        Shape {
+                            geometry Box {
+                                size  0.02 0.7 0.6
+                            }
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 1 1 1
+                                }
+                            }
+                        }
+                    ]
+                }
+
+                #desk Right side
+                Transform {
+                    translation 0.75 -0.35 0
+                    children [
+                        Shape {
+                            geometry Box {
+                                size  0.02 0.7 0.6
+                            }
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 1 1 1
+                                }
+                            }
+                        }
+                    ]
+                }
+                ]
+            }
+
+            DEF ChairLeft Transform{
+                scale 0.7 0.7 0.7
+                translation -0.4 -0.7 0.4
+                children[
+                    Transform{
+                    scale 0.1 0.1 0.1
+                    children[
+                    #chair back
+                    Transform {
+                    translation 0 10 4
+                    children[
+                        Shape {
+                        geometry Box {
+                        size 6 4 1
+                        }
+                        appearance Appearance{
+                        material Material {
+                            diffuseColor 0 0.5 0
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair upprop
+                    Transform {
+                    translation 0 8 4
+                    children[
+                    Shape{
+                    geometry Cylinder {
+                        radius 0.3
+                        height 4
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                    }
+                    ]
+                    }
+
+                    #chair underprop
+                    Transform {
+                    translation 0 3 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 0.4
+                        height 6
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair hip
+                    Transform {
+                    translation 0 6 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 4
+                        height 0.5
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0 0.5 0
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair under
+                    Transform {
+                    translation 0 0 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 3
+                        height 0.5
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        }
+                    ]
+                    }
+                    ]
+                    }
+            ]
+            }
+            DEF ChairRight Transform{
+                scale 0.7 0.7 0.7
+                translation 0.4 -0.7 0.4
+                children[
+                    Transform{
+                    scale 0.1 0.1 0.1
+                    children[
+                    #chair back
+                    Transform {
+                    translation 0 10 4
+                    children[
+                        Shape {
+                        geometry Box {
+                        size 6 4 1
+                        }
+                        appearance Appearance{
+                        material Material {
+                            diffuseColor 0 0.5 0
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair upprop
+                    Transform {
+                    translation 0 8 4
+                    children[
+                    Shape{
+                    geometry Cylinder {
+                        radius 0.3
+                        height 4
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                    }
+                    ]
+                    }
+
+                    #chair underprop
+                    Transform {
+                    translation 0 3 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 0.4
+                        height 6
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair hip
+                    Transform {
+                    translation 0 6 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 4
+                        height 0.5
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0 0.5 0
+                        }
+                        }
+                        }
+                    ]
+                    }
+
+                    #chair under
+                    Transform {
+                    translation 0 0 0
+                    children[
+                        Shape{
+                    geometry Cylinder {
+                        radius 3
+                        height 0.5
+                    }
+                    appearance Appearance{
+                        material Material {
+                            diffuseColor 0.2 0.2 0.2
+                        }
+                        }
+                        }
+                    ]
+                    }
+                    ]
+                    }
+            ]
+            }
+        ]
+}
+       
+         ]
+    }
+    ]
+}

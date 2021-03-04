@@ -1,0 +1,420 @@
+#VRML V2.0 utf8
+
+DEF Room Transform {
+    children [
+        DEF Wallfront Transform {
+            translation 0 1.5 -8.5
+            children[
+                Shape {
+                geometry Box {
+                    size 17.2 3 0.2
+                }
+                appearance Appearance{
+                    material Material{
+                        diffuseColor 0.75 0.75 0.75
+                    }
+                }
+                }
+            ]
+        }
+        DEF WallLeft Transform {
+            children[
+                Transform {
+                    translation -8.5 1.5 -6
+                    children [
+                        Shape{
+                            geometry Box {
+                                size 0.2 3 1
+                            }
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.75 0.75 0.75
+                                }
+                            }
+                        }
+                    ]
+                }
+                Transform {
+                    translation -8.5 1.5 -3.5
+                    children [
+                        Shape{
+                            geometry Box {
+                                size 0.2 3 1
+                            }
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.75 0.75 0.75
+                                }
+                            }
+                        }
+                    ]
+                }
+                Transform {
+                    translation -8.5 1.5 -1
+                    children [
+                        Shape{
+                            geometry Box {
+                                size 0.2 3 1
+                            }
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.75 0.75 0.75
+                                }
+                            }
+                        }
+                    ]
+                }
+                Transform {
+                    translation -8.5 1.5 1.5
+                    children [
+                        Shape{
+                            geometry Box {
+                                size 0.2 3 1
+                            }
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.75 0.75 0.75
+                                }
+                            }
+                        }
+                    ]
+                }
+                Transform {
+                    translation -8.5 1.5 4
+                    children [
+                        Shape{
+                            geometry Box {
+                                size 0.2 3 1
+                            }
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.75 0.75 0.75
+                                }
+                            }
+                        }
+                    ]
+                }
+                Transform {
+                    translation -8.5 1.5 6.5
+                    children [
+                        Shape{
+                            geometry Box {
+                                size 0.2 3 1
+                            }
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.75 0.75 0.75
+                                }
+                            }
+                        }
+                    ]
+                }
+                Transform {
+                    translation -8.5 2 0
+                    children [
+                        Shape{
+                            geometry Box {
+                                size 0.2 0.5 17
+                            }
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.75 0.75 0.75
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        DEF WallRight Transform {
+            children[
+                #front f
+                Transform{
+                    translation 8.5 1.5 -8.25
+                    children[
+                        Shape{
+                        geometry Box {
+                            size 0.2 3 0.5
+                        }
+                        appearance Appearance{
+                            material Material{
+                                diffuseColor 0.75 0.75 0.75
+                            }
+                        }
+                        }
+                    ]
+                }
+                #front b
+                Transform{
+                    translation 8.5 1.5 -6.75
+                    children[
+                        Shape{
+                        geometry Box {
+                            size 0.2 3 0.5
+                        }
+                        appearance Appearance{
+                            material Material{
+                                diffuseColor 0.75 0.75 0.75
+                            }
+                        }
+                        }
+                    ]
+                }
+                #frontdoor
+                Transform{
+                    translation 8.5 1.25 -7.5
+                    children[
+                        Shape{
+                            geometry Box{
+                                size 0.2 2.5 1
+                            }
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.5 0.5 0.5
+                                }
+                            }
+                        }
+                    ]
+                }
+                #back f
+                Transform{
+                    translation 8.5 1.5 4.25
+                    children[
+                        Shape{
+                        geometry Box {
+                            size 0.2 3 0.5
+                        }
+                        appearance Appearance{
+                            material Material{
+                                diffuseColor 0.75 0.75 0.75
+                            }
+                        }
+                        }
+                    ]
+                }
+                #back b
+                Transform{
+                    translation 8.5 1.5 5.75
+                    children[
+                        Shape{
+                        geometry Box {
+                            size 0.2 3 0.5
+                        }
+                        appearance Appearance{
+                            material Material{
+                                diffuseColor 0.75 0.75 0.75
+                            }
+                        }
+                        }
+                    ]
+                }
+                #backdoor
+                Transform{
+                    translation 8 1.25 5.5
+                    children[
+                        Shape{
+                            geometry Box{
+                                size 1 2.5 0.2
+                            }
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.5 0.5 0.5
+                                }
+                            }
+                        }
+                    ]
+                }
+                #up
+                Transform{
+                    translation 8.5 2.75 -1.25
+                    children[
+                        Shape{
+                        geometry Box {
+                            size 0.2 0.5 14.5
+                        }
+                        appearance Appearance{
+                            material Material{
+                                diffuseColor 0.75 0.75 0.75
+                            }
+                        }
+                        }
+                    ]
+                }
+                #under
+                Transform{
+                    translation 8.5 0.25 -1.25
+                    children[
+                        Shape{
+                        geometry Box {
+                            size 0.2 0.5 10.5
+                        }
+                        appearance Appearance{
+                            material Material{
+                                diffuseColor 0.75 0.75 0.75
+                            }
+                        }
+                        }
+                    ]
+                }
+            ]
+        }
+        DEF Wallbackcenter Transform {
+            translation 3.5 1.5 7.25
+            children[
+                Shape{
+                geometry Box {
+                    size 0.2 3 2.5
+                }
+                appearance Appearance{
+                    material Material{
+                        diffuseColor 0.75 0.75 0.75
+                    }
+                }
+                }
+            ]
+        }
+        DEF WallbackR Transform {
+            translation 6 1.5 6
+            children[
+                Shape{
+                geometry Box {
+                    size 5.2 3 0.2
+                }
+                appearance Appearance{
+                    material Material{
+                        diffuseColor 0.75 0.75 0.75
+                    }
+                }
+                }
+            ]
+        }
+        DEF WallbackL Transform {
+            translation -2.5 1.5 8.5
+            children[
+                Shape{
+                geometry Box {
+                    size 12.2 3 0.2
+                }
+                appearance Appearance{
+                    material Material{
+                        diffuseColor 0.75 0.75 0.75
+                    }
+                }
+                }
+            ]
+        }
+        DEF Floor Transform{
+            children[
+                Transform{
+                    translation -2.5 0 0
+                    children[
+                    Shape {
+                        geometry Box {
+                            size 12 0.2 17
+                        }                        
+                        appearance Appearance {
+                            material Material {
+                                diffuseColor 0.5 0.5 0.5
+                            }
+                        }
+                    }
+                    ]
+                }
+                    Transform{
+                        translation 6 0 -1.25
+                        children[
+                    Shape {
+                        geometry Box {
+                            size 5 0.2 14.5
+                        }                        
+                        appearance Appearance {
+                            material Material {
+                                diffuseColor 0.5 0.5 0.5
+                            }
+                        }
+                    }
+                        ]
+                    }
+
+            ]
+        }
+        DEF Window Transform {
+            #Right
+            children [
+                Transform{
+                    translation 8.5 1.5 -1.25
+                    children[
+                        Shape {
+                            geometry Box{
+                                size 0 2 10.5
+                            }
+                            appearance Appearance {
+                                    material Material {
+                                        diffuseColor 0.75 0.75 0.75
+                                        shininess 0.2
+                                        transparency 0.5
+                                    }
+                                }
+                            }
+                    ]
+                }
+                #Left
+                Transform{
+                    translation -8.5 1.5 0
+                    children[
+                        Shape {
+                            geometry Box{
+                                size 0 3 17
+                            }
+                            appearance Appearance {
+                                    material Material {
+                                        diffuseColor 0.75 0.75 0.75
+                                        shininess 0.2
+                                        transparency 0.5
+                                    }
+                                }
+                            }
+                    ]
+                }
+                
+            ]
+        }
+        DEF roof Transform{
+            children[
+                Transform{
+                    translation -2.5 3 0
+                    children[
+                    Shape {
+                        geometry Box {
+                            size 12 0.2 17
+                        }                        
+                        appearance Appearance {
+                            material Material {
+                                diffuseColor 0.5 0.5 0.5
+                                transparency 0.9
+                            }
+                        }
+                    }
+                    ]
+                }
+                    Transform{
+                        translation 6 3 -1.25
+                        children[
+                    Shape {
+                        geometry Box {
+                            size 5 0.2 14.5
+                        }                        
+                        appearance Appearance {
+                            material Material {
+                                diffuseColor 0.5 0.5 0.5
+                                transparency 0.9
+                            }
+                        }
+                    }
+                        ]
+                    }
+
+            ]
+        }
+    ]
+}

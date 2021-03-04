@@ -1,0 +1,92 @@
+#VRML V2.0 utf8
+
+#Room
+Transform{ 
+  translation 0 0.75 0
+  children[
+    Inline{
+      url ["room.wrl"]
+    }
+  ]
+}
+
+#PC
+Transform{ 
+  children[
+    Inline{
+      url ["PCRow.wrl"]
+    }
+  ]
+}
+
+#rounddesk
+Transform{ 
+  children[
+    Inline{
+      url ["rounddesk.wrl"]
+    }
+  ]
+}
+
+#upmonitor
+Transform{ 
+  translation 0 0.75 0
+  children[
+    Inline{
+      url ["monitor.wrl"]
+    }
+  ]
+}
+
+#Cylinder
+Transform{ 
+  translation 0 -0.25 0
+  children[
+    Inline{
+      url ["Cylinder.wrl"]
+    }
+  ]
+}
+#teacherdesk
+Transform{ 
+  children[
+    Inline{
+      url ["teacherdesk.wrl"]
+    }
+  ]
+}
+#projector
+Transform{
+  translation -2.25 3.5 5
+  children[
+    Inline{
+      url ["projector.wrl"]
+    }
+  ]
+}
+
+DEF sphere Transform{
+  children[
+    Shape {
+      geometry Sphere {
+        radius 0.5
+      }
+      appearance Appearance{
+        material Material{
+          diffuseColor 1 0 1
+        }
+      }
+    }
+  ]
+}
+DEF SphereTimer TimeSensor{
+  cycleInterval 12
+  loop TRUE
+}
+DEF SpherePosition PositionInterpolator{
+  key[0,0.15,0.5,0.6,0.95,1.0]
+  keyValue[10.0 1.5 5,4.5 1.5 5,4.5 1.5 -7,7.8 1.5 -7,7.8 1.5 5,10.0 1.5 5]
+}
+
+ROUTE SphereTimer.fraction_changed TO SpherePosition.set_fraction
+ROUTE SpherePosition.value_changed TO sphere.set_translation

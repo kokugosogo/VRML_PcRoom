@@ -1,0 +1,66 @@
+#VRML V2.0 utf8
+#left2
+Transform {
+    translation -8.2 0 -2.45
+    children [
+        DEF roomCylinder Transform{
+            translation 0 2.5 0
+            children[
+                Shape {
+                    geometry Cylinder {
+                        radius 0.35
+                        height 3
+                    }
+                    appearance Appearance {
+                        material Material{
+                            diffuseColor 1 1 1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+#left3
+Transform{
+    translation -8.2 0 2.95
+    children[
+        USE roomCylinder
+    ]
+}
+#right2
+Transform{
+    translation 3.5 0 -2.45
+    children[
+        USE roomCylinder
+    ]
+}
+#right3
+Transform{
+    translation 3.5 0 2.95
+    children[
+        USE roomCylinder
+    ]
+}
+#right1
+Transform{
+    translation 3.5 0 -8.5
+    children[
+        USE roomCylinder
+    ]
+}
+#left1
+Transform{
+    translation -8.2 0 -8.5
+    children[
+        USE roomCylinder
+    ]
+}
+#right4
+Transform{
+    translation 3.5 0 8.5
+    children[
+        USE roomCylinder
+    ]
+}
