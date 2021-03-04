@@ -2,7 +2,7 @@
 VRMLで大学の演習室を再現したものです。
 
 # Requirement
-* Internet explorer
+* Internet xplorer
 * CORTONA3D VIEWER
 
 # Installation
