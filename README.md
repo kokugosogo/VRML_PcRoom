@@ -2,7 +2,7 @@
 VRMLで大学の演習室を再現したものです。
 
 # Demo
-![PCroom](https://user-images.githubusercontent.com/72292551/109941202-3fea3c00-7d16-11eb-9674-60a638d2b808.png)
+![PCroom](https://user-images.githubusercontent.com/72292551/109944321-770e1c80-7d19-11eb-99aa-6f1c6e3eef73.gif)
 
 # Requirement
 * Internet Explorer
