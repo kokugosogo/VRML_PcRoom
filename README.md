@@ -1,15 +1,19 @@
 # VRML_PcRoom
 VRMLで大学の演習室を再現したものです。
 
-*実行するブラウザは"Internet explorer"で、"CORTONA3D VIEWER"をダウンロードしてください。
-*"PCroom.wrl"を実行すると演習室が表示されます。
-*一度全部のファイル(画像ファイルも)を実行してから"PCroom.wrl"のファイルを実行しないと移動する物体しか表示されない可能性があります。
+# Requirement
+* Internet explorer
+* CORTONA3D VIEWER
 
-・移動する物体に関する説明
-PCroom.wrlファイルで物体をドアから直進させ、次に右折させてPCルーム右側にある丸机の周りを一周させている。
+# Installation
 
-・色を変化させたPCに関する説明
-まずPC自体の色が変化しないように画面を設置してその画面の色だけをPCRow.wrlファイル内で変化させている。
+http://www.cortona3d.com/en/cortona3d-viewer-download
 
-・テクスチャに関する説明
-イルミネーションの写真を張り付けている。
+# Usage
+* "PCroom.wrl"をダブルクリックすると実行できます。
+* 事前に"CORTONA3D VIEWER"をダウンロードしてください。
+* 実行時には"Internet explorer"を選択してください。
+
+
+# Author
+* https://github.com/kokugosogo
